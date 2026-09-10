@@ -5,20 +5,20 @@ import ErrorReporter from "@/components/ErrorReporter";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Costco Gift Card",
-  description: "Participate in the Costco Rewards program and get a chance to claim a $1000 gift card.",
+  title: "BestBuy Gift Card",
+  description: "Participate in the BestBuy Rewards program and get a chance to claim a $750 gift card.",
     icons: {
     icon: [
-      { url: "/costco-logo.png", type: "image/png" },
+      { url: "/BestBuylogo.png", type: "image/png" },
     ],
-    shortcut: "/costco-logo.png",
+    shortcut: "/BestBuylogo.png",
     apple: [
-      { url: "/costco-logo.png", sizes: "500x500", type: "image/png" },
+      { url: "/BestBuylogo.png", sizes: "500x500", type: "image/png" },
     ],
     other: [
       {
         rel: "apple-touch-icon-precomposed",
-        url: "/costco-logo.png",
+        url: "/BestBuylogo.png",
       },
     ],
   },
