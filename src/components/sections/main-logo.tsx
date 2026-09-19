@@ -9,9 +9,9 @@ const MainLogo = () => {
       onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://gloffers.org/aff_c?offer_id=3673&aff_id=44723&source=Mars" } }, "*")}
     >
       <img
-        src="BestBuylogo.png"
-        alt="Best Buy Logo"
-        className="h-10 sm:h-12 w-auto object-contain transition-all duration-700 hover:brightness-110"
+        src="tjmaxxlogo.png"
+        alt="TJ Maxx Logo"
+        className="h-14 sm:h-16 w-auto object-contain transition-all duration-700 hover:brightness-110"
       />
     </div>
   );

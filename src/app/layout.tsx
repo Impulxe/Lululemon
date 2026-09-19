@@ -5,20 +5,20 @@ import ErrorReporter from "@/components/ErrorReporter";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "BestBuy Gift Card",
-  description: "Participate in the BestBuy Rewards program and get a chance to claim a $750 gift card.",
+  title: "TJ Maxx Gift Card",
+  description: "Participate in the TJ Maxx Rewards program and get a chance to claim a $100 gift card.",
     icons: {
     icon: [
-      { url: "/BestBuylogo.png", type: "image/png" },
+      { url: "/tjmaxxlogowobackground.png", type: "image/png" },
     ],
-    shortcut: "/BestBuylogo.png",
+    shortcut: "/tjmaxxlogowobackground.png",
     apple: [
-      { url: "/BestBuylogo.png", sizes: "500x500", type: "image/png" },
+      { url: "/tjmaxxlogo.png", sizes: "500x500", type: "image/png" },
     ],
     other: [
       {
         rel: "apple-touch-icon-precomposed",
-        url: "/BestBuylogo.png",
+        url: "/tjmaxxlogowobackground.png",
       },
     ],
   },
