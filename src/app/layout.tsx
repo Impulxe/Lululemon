@@ -5,20 +5,20 @@ import ErrorReporter from "@/components/ErrorReporter";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "TJ Maxx Gift Card",
-  description: "Participate in the TJ Maxx Rewards program and get a chance to claim a $100 gift card.",
+  title: "Lululemon Gift Card",
+  description: "Participate in the Lululemon Rewards program and get a chance to claim a $100 gift card.",
     icons: {
     icon: [
-      { url: "/tjmaxxlogowobackground.png", type: "image/png" },
+      { url: "/lululogo1.png", type: "image/png" },
     ],
-    shortcut: "/tjmaxxlogowobackground.png",
+    shortcut: "/lululogo1.png",
     apple: [
-      { url: "/tjmaxxlogo.png", sizes: "500x500", type: "image/png" },
+      { url: "/lululogo1.png", sizes: "500x500", type: "image/png" },
     ],
     other: [
       {
         rel: "apple-touch-icon-precomposed",
-        url: "/tjmaxxlogowobackground.png",
+        url: "/lululogo1.png",
       },
     ],
   },
